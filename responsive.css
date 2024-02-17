@@ -1,0 +1,341 @@
+
+
+@media only screen and (max-width: 2560px) {
+    html{
+        font-size: 110%;
+    }
+}
+
+@media only screen and (max-width: 2460px) {
+    html{
+        font-size: 100%;
+    }
+}
+
+@media only screen and (max-width: 2260px) {
+    html{
+        font-size: 90%;
+    }
+}
+@media only screen and (max-width: 1960px) {
+    html{
+        font-size: 80%;
+    }
+}
+@media only screen and (max-width: 1760px) {
+    html{
+        font-size: 70%;
+    }
+}
+@media only screen and (max-width: 1560px) {
+    html{
+        font-size: 66%;
+    }
+}
+@media only screen and (max-width: 1440px) {
+    html{
+        font-size: 62.5%;
+    }
+}
+@media only screen and (max-width: 1360px) {
+    html{
+        font-size: 56%;
+    }
+}
+@media only screen and (max-width: 1160px) {
+    html{
+        font-size: 50%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    html{
+        font-size: 44%;
+    }
+    .section2{
+        /* background-color: aqua; */
+        /* width: 100%; */
+        height: 15rem;
+        /* justify-content: space-between; */
+        /* display: flex; */
+    }
+    
+.s2li1{
+    /* background-color: red; */
+    margin: 2.7rem 2rem;
+    /* font-size: 1.5rem; */
+    /* font-weight: 650; */
+    /* transition: 500ms; */
+}
+.s3div1{
+    /* background-color: rgba(0, 0, 0, 0.425); */
+    color: white;
+    text-align: center;
+    margin: 30rem 1rem;
+    
+}
+}
+
+@media only screen and (max-width: 968px) {
+    html{
+        font-size: 40%;
+    }
+    
+.s3div1{
+    /* background-color: rgba(0, 0, 0, 0.425); */
+    color: white;
+    text-align: center;
+    margin: 45rem 1rem;
+    
+}
+}
+@media only screen and (max-width: 868px) {
+    html{
+        font-size: 37%;
+    }
+        
+.s3div1{
+    /* background-color: rgba(0, 0, 0, 0.425); */
+    color: white;
+    text-align: center;
+    margin: 50rem 1rem;
+    
+}
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    html{
+        font-size: 32%;
+    }
+
+    .section2-carousel{
+        display: none;
+    }
+
+
+
+    .section1{
+        display: none;
+    }
+    .section1_768px{
+        /* background-color: white; */
+        width: 100%;
+        height: 10rem;
+        display: flex;
+        /* position: fixed; */
+        justify-content: space-between;
+    }
+    .bars i{
+        /* position: fixed; */
+        font-size: 5rem;
+        /* padding: 3rem; */
+        border: none;
+    }
+    .navsIcons i{
+        color: black;
+        font-size: 3rem;
+        padding: 4rem;
+
+    }
+
+
+
+
+
+    .section2{
+        display: none;
+    }
+    
+
+
+
+
+.section2_768px{
+    display: flex;
+    justify-content: center;
+    height: 10rem;
+}
+
+.s3div1{
+    /* background-color: rgba(0, 0, 0, 0.425); */
+    color: white;
+    text-align: center;
+    margin: 60rem 1rem;
+    
+}
+
+
+
+    .section4{
+        width: 100%;
+        height: 95vh;
+        justify-content: space-between;
+        display: none;
+    }
+    
+    .section4_768px{
+        width: 100%;
+
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+    }
+/* 
+    .s4text1 li{
+    
+        color: purple;
+        padding: 80% 10%;
+        font-size: 2rem;
+        font-weight: 800;
+        transition: 200ms linear;
+    
+    }
+    .s4text1 li:hover{
+        font-size: 2.5rem;
+    }
+    .s4text li{
+        color: green;
+        text-align: center;
+        padding: 40% 10%;
+        font-size: 2rem;
+        font-weight: 800;
+        transition: 200ms linear;
+    }
+    .s4text li:hover{
+        font-size: 2.5rem;
+    } */
+    
+
+
+
+.section5{
+    display: none;
+}
+
+.section5_768px{
+    display: inline;
+}
+
+
+
+.product img{
+    width: 100%;
+    height: 95rem;
+}
+
+
+.price{
+    
+    /* background-color: red; */
+    width: 100%;
+    height: 15rem;
+    margin: .1rem;
+}
+
+.price h6{
+    margin-top: 1rem;
+    font-size: 2.7rem;
+    font-weight: 500;
+}
+
+.price p{
+    margin-top: 1rem;
+    font-size: 2.3rem;
+    font-weight: 650;
+}
+
+
+
+
+}
+
+@media only screen and (max-width: 668px) {
+    html{
+        font-size: 28%;
+    }
+        
+.s3div1{
+    /* background-color: rgba(0, 0, 0, 0.425); */
+    color: white;
+    text-align: center;
+    margin: 70rem 1rem;
+    
+}
+}
+@media only screen and (max-width: 570px) {
+    html{
+        font-size: 24%;
+    }
+        
+.s3div1{
+    /* background-color: rgba(0, 0, 0, 0.425); */
+    color: white;
+    text-align: center;
+    margin: 105rem 1rem;
+    
+}
+}
+@media only screen and (max-width: 480px) {
+    html{
+        font-size: 24%;
+    }        
+    .s3div1{
+        /* background-color: rgba(0, 0, 0, 0.425); */
+        color: white;
+        text-align: center;
+        margin: 100rem 1rem;
+        
+    }
+}
+
+@media only screen and (max-width: 440px) {
+            
+    .s3div1{
+ 
+        color: white;
+        text-align: center;
+        margin: 110rem 1rem;
+        
+    
+}
+}
+@media only screen and (max-width: 425px) {
+    html{
+        font-size: 22%;
+    } 
+    .s3div1{
+ 
+        color: white;
+        text-align: center;
+        margin: 110rem 1rem;
+        
+    
+}
+
+
+}    
+
+@media only screen and (max-width: 330px) {
+    html{
+        font-size: 17%;
+    } 
+       
+    .s3div1{
+        /* background-color: rgba(0, 0, 0, 0.425); */
+        color: white;
+        text-align: center;
+        margin: 160rem 1rem;
+        
+    }
+
+
+}    

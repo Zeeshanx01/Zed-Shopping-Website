@@ -1,19 +1,12 @@
 *{
     margin: 0rem;
     padding: 0rem;
-    /* font-size: 1; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     list-style: none;
 }
 
-
-
-
-
-
 html{
     font-size: 62.5%;
-    /* font-size: 10%; */
 }
 
 
@@ -22,47 +15,12 @@ html{
     text-decoration: none;
 }
 
-
-
 .navoptions a{
     text-decoration: none;
     transition: 200ms linear;
 }
 
-
-
-
-
-
-
-
-
-
-/* 
-html, body{
-    padding:0px;
-    margin:0px;
-    background:#191A1D;
-    font-family: 'Karla', sans-serif;
-    width:100vw;
- }
- body * {
-    margin:0;
-    padding:0;
- } */
- 
- /* HTML Nav Styles */
- /* HTML Nav Styles */
- /* HTML Nav Styles */
-
- /* .menu_786px {
-    background-color: aqua;
-    position: relative;
-    height: 100rem;
- } */
-
  nav menuitem {
-    /* background-color: red; */
     position: relative;
     display: block;
     opacity:100;
@@ -83,34 +41,19 @@ html, body{
  menuitem:hover > menu {
     pointer-events:initial;
  }
- menuitem:hover > menu > menuitem,
- menu:hover > menuitem{
-    /* flood-opacity: 1 */
- }
+
  nav > menu > menuitem menuitem menu {
     transform:translateX(100%);
     top:0; right:0;
  }
- /* User Styles Below Not Required */
- /* User Styles Below Not Required */
- /* User Styles Below Not Required */
- 
- nav { 
-    /* margin-top: 40px;
-    margin-left: 40px; */
- }
  
  .bars-a{
-        /* background:#75F; */
         background-color: white;
         color: black;
         min-width:190px;
         transition: background 0.5s, color 0.5s, transform 0.5s;
         margin:0rem .6rem .6rem 0rem;
         padding:2rem 4rem;
-        /* box-sizing:border-box; */
-        /* border-radius:.3rem; */
-        /* box-shadow: 0rem .2rem .4rem rgba(0, 0, 0, 0.5); */
         position:relative;
  }
 
@@ -187,28 +130,8 @@ html, body{
  }
  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .section1_768px{
     display: none;
-}
-hr{
-    /* display: none; */
 }
 
 .section1{
@@ -218,11 +141,9 @@ hr{
     justify-content: space-between;
     width: 100%;
     height: 4rem;
-    /* margin: auto; */
 }
 
 .mainlink{
-    /* background-color: aqua; */
     text-align: center;
     padding-left: 10rem;
     margin: .4rem 0rem;
@@ -235,15 +156,11 @@ hr{
     display: flex;
 }
 .s1li{
-    /* background-color: red; */
     font-size: 1.5rem;
     padding: .9rem 1.5rem;
 }
 .text{
     color: rgb(170, 170, 170);
-}
-.navoptionsHover{
-    /* background-color: aqua; */
 }
 .fonts{
     background-color: rgb(31, 31, 31);
@@ -258,18 +175,14 @@ hr{
 
 .fonts:hover{
     background-color: rgb(42, 42, 255);
-    /* transition: 500ms ease-in-out; */
 }
 
-/* Dropdown Button */
 .dropbtns {
     background-color: rgb(42, 42, 255);
     color: white;
     padding: 1.1rem 5rem;
-    /* font-size: 3rem; */
     border: none;
     display: flex;
-    /* margin-top: -10rem; */
     height: 3.9rem;
     transition: 200ms linear;
   }
@@ -335,35 +248,12 @@ hr{
         
     } */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .section2_768px{
     display: none;
 }
 
 
 .section2{
-    /* background-color: aqua; */
     width: 100%;
     height: 15rem;
     justify-content: space-between;
@@ -371,19 +261,13 @@ hr{
 }
 
 .logo{
-    /* background-color: blue; */
     padding: 2.7rem;
     padding-left: 10.5rem;
-}
-
-.s2div1{
-    /* background-color: aqua; */
 }
 .s2ul{
     display: flex;
 }
 .s2li1{
-    /* background-color: red; */
     margin: 2rem 2rem;
     font-size: 1.5rem;
     font-weight: 650;
@@ -401,7 +285,6 @@ hr{
     color: black;
 }
 .s2div2{
-    /* background-color: blue; */
     width: 30%;
     height: 20vh;
 }
@@ -413,15 +296,12 @@ hr{
     border: none;
 }
 .searchbutton{
-    /* background-color: red; */
     border: none;
 }
 .searchbutton i{
     font-size: 2rem;
-    /* padding-right: 10rem; */
 }
 .contents{
-    /* background-color: rgba(65, 105, 225, 0.377); */
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -436,31 +316,8 @@ hr{
 .carousel-inner .carousel-item img{
     position: relative;
     z-index: -1;
-
-    /* top: 100px;
-    left: 100px; */
     width: 60%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .section3{
     background-image: url(images/brooke-cagle-wKOKidNT14w-unsplash.jpg);
@@ -474,23 +331,17 @@ hr{
 
 
 .s3div1{
-    /* background-color: rgba(0, 0, 0, 0.425); */
     color: white;
     text-align: center;
     margin: 18rem 1rem;
-    /* display: flex;
-    flex-direction: column; */
-    
 }
 
 .s3div1 h1{
-    /* background-color: rgba(0, 0, 0, 0.247); */
     font-size: 6rem;
     font-weight: 300;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .s3div1 p{
-    /* background-color: rgba(0, 0, 0, 0.247); */
     font-size: 2rem;
     font-weight: 100;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -502,7 +353,6 @@ hr{
     background-color: rgb(40, 40, 82);
     border-radius: 10rem;
     border: none;
-    /* margin: 1rem 3rem; */
     padding: 1.5rem 3.5rem;
     transition: 200ms linear;
 }
@@ -518,65 +368,22 @@ hr{
     font-size: 4rem;
 }
 
-/* .arrows button{
-    display: inline;
-    color: rgba(255, 255, 255, 0.514);
-    margin: 23.5rem 6rem;
-    font-size: 7rem;
-    background-color: rgba(255, 255, 255, 0);
-    border: none;
-    font-weight: 700;
-    font-family: cursive;   
-} */
-
-
-.div4{
-    /* background-color: aqua; */
-    /* width: 100%; */
-    /* height: 12vh; */
-}
-
 .div4 h1{
     color: black;
     text-align: center;
     font-size: 3rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* border-bottom: blue solid .2rem; */
     font-weight: 400;
     margin: 3rem 6.26rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .section4{
     width: 100%;
-    /* height: 95vh; */
     justify-content: space-between;
     display: flex;
 }
 
 .section4_768px{
-    /* width: 100%;
-    height: 95vh;
-    justify-content: space-between; */
     display: none;
 }
 .s4div1{
@@ -586,15 +393,7 @@ hr{
 
 .s4divs{
     width: 33%;
-    /* background-color: grey; */
 }
-
-
-
-.s4div2{
-
-}
-
 .s4divs3{
     background-color: grey;
     width: 100%;
@@ -607,15 +406,11 @@ hr{
     background-color: grey;
     display: flex;
     justify-content: center;
-    /* width: 100%; */
     height: 95rem;
 } 
 .s4text1 li{
     
     color: white;
-    /* text-align: center; */
-    /* display: flex;
-    justify-content: center; */
     padding: 48rem 1rem;
     font-size: 2rem;
     font-weight: 800;
@@ -624,7 +419,6 @@ hr{
 }
 .s4text1 li:hover{
     font-size: 2.5rem;
-    /* border-bottom: red solid 6rem; */
 }
 .s4text li{
     color: white;
@@ -633,45 +427,19 @@ hr{
     font-size: 2rem;
     font-weight: 800;
     transition: 200ms linear;
-    /* border: red solid .6rem; */
 }
 .s4text li:hover{
     font-size: 2.5rem;
-    /* border-bottom: red solid .6rem; */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .section5{
-    display: contents;
-} */
-
 .section5_768px{
     display: none;
 }
-
-
 
 .div5 h1{
     color: black;
     text-align: center;
     font-size: 3rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* border-bottom: blue solid .2rem; */
     font-weight: 400;
     margin: 3.0rem 6.34rem;
 }
@@ -688,8 +456,6 @@ hr{
 }
 .product{
     background-color: grey;
-    /* width: 100%; */
-    /* height: 65vh; */
     margin: .1rem;
 }
 .product img{
@@ -704,7 +470,6 @@ hr{
 
 .price{
     justify-content: center;
-    /* background-color: red; */
     width: 100%;
     height: 10rem;
     margin: .1rem;
@@ -729,8 +494,6 @@ hr{
     border-radius: 1000px;
     width: 100%;
     height: 5rem;
-    /* padding: 2rem; */
-    /* margin-left: 2.5rem;  */
     margin: .5rem;
 }
 
@@ -739,9 +502,7 @@ hr{
     text-align: center;
     font-size: 3rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* border-bottom: blue solid 2rem; */
     font-weight: 400;
-    /* margin: 60rem 585rem; */
     padding-bottom: 8rem;
 }
 
@@ -777,15 +538,12 @@ hr{
 }
 
 .s7div{
-    /* background-color: grey; */
     width: 100%;
-    /* height: 65vh; */
     display: flex;
 }
 
 
 .s7childiv{
-    /* background-color: rgba(0, 0, 255, 0.393); */
     width: 33%;
     height: 50rem;
     margin: .1rem;
@@ -817,13 +575,3 @@ hr{
     font-size: 1.5rem;
     text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
